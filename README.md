@@ -1,9 +1,9 @@
 # wot project
 
-![GitHub Repo stars](https://img.shields.io/github/stars/lockness-Ko/wot#8e0ac7)
-![GitHub issues](https://img.shields.io/github/issues/lockness-Ko/wot?color=%238b20e3)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/lockness-Ko/wot?color=%238e0ac7)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lockness-Ko/wot?color=%238b20e3)
+![GitHub Repo stars](https://img.shields.io/github/stars/wotproject/wotproject.github.io#8e0ac7)
+![GitHub issues](https://img.shields.io/github/issues/wotproject/wotproject.github.io?color=%238b20e3)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/wotproject/wotproject.github.io?color=%238e0ac7)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wotproject/wotproject.github.io?color=%238b20e3)
 
 Welcome to the wot project homepage!
 
