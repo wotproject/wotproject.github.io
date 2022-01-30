@@ -1,20 +1,20 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #3d2d29;
+	background-color: #302438;
 	color: white;
 }
 
 a {
-	color: #ef7458;
+	color: #ce46a3;
 	transition-duration: 0.2s;
 }
 
 a:visited {
-	color: #ef5888;
+	color: #7146ce;
 }
 
 a:hover {
-	color: #efbf58;
+	color: #b546ce;
 }
 
 input {
