@@ -1,14 +1,29 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>wot project</title>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <h2>Welcome to the wot project homepage.</h2>
-    <h4><i>Secure, Lightweight and Simple</i></h4>
-    
-    <br>
-    
-    Test
-  </body>
+	<head>
+		<title>wot project | home</title>
+		<meta name="description" content="wot. Secure, Lightweight and Simple.">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<h1>Hello, World!</h1>
+		<h2>Welcome to the wot project homepage.</h2>
+		<h4><i>Secure, Lightweight and Simple</i></h4>
+		<br>
+
+		Test
+		
+		<hr>
+		
+		<pre id="readme">
+			This website uses javascript to fetch the readme and put it in this pre tag
+		</pre>
+		<script src="/marked.min.js"></script>
+		<script>
+			fetch('https://raw.githubusercontent.com/wotproject/wotproject.github.io/main/README.md').then(x=>x.text()).then((y)=>{document.getElementById("readme").innerHTML=marked.parse(y)})
+		</script>
+	</body>
 </html>
